@@ -1,0 +1,720 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     list-style: none;
+     /* font-family: 'Nunito Sans', sans-serif; */
+}
+
+
+
+a {
+     text-decoration: none;
+}
+
+.row_wd {
+     width: 100%;
+}
+
+.pt-30 {
+     padding-top: 30px;
+}
+
+.pb-30 {
+     padding-bottom: 30px;
+}
+
+.mt-54 {
+     margin-top: 54px;
+}
+
+.mgt-top {
+     margin-top: 64px;
+}
+
+.pos-rltv {
+     position: relative;
+}
+
+.top_section {
+     /* background-image: url(../img/Base\ \(1\).png); */
+     background: rgb(0, 184, 217, 0.1);
+     mix-blend-mode: normal;
+     /* opacity: 0.1; */
+     height: 758px;
+     position: relative;
+}
+
+.container {
+     width: 100%;
+}
+
+
+
+.nav_height {
+     height: 100px;
+}
+
+
+.nav_icon {
+     font-size: 12px;
+}
+
+.nav_btn {
+     width: 131px;
+     height: 48px;
+     border: 2px solid #1565D8;
+     background-color: transparent;
+     font-size: 17px;
+     box-sizing: border-box;
+     border-radius: 8px;
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 22px;
+     text-align: center;
+     color: #1565D8;
+}
+
+.nav_btn:hover {
+     background-color: #1565D8;
+     color: white;
+}
+
+.navbar-expand-lg .navbar-collapse {
+     justify-content: end;
+}
+
+.navbar-brand {
+     width: 70px;
+}
+
+.navbar-brand img {
+     width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+     padding: 1rem 1.2rem;
+
+}
+
+.nav-link {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 22px;
+     text-align: center;
+     color: #183B56;
+}
+
+.nav-link:hover {
+     color: gray;
+}
+
+.img_width {
+     width: 90%;
+}
+
+.display_img {
+     display: block;
+}
+
+.display_img2 {
+     display: none;
+}
+
+.top_sct_head {
+     font-family: 'HK Grotesk';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 56px;
+     line-height: 68px;
+     letter-spacing: 0.2px;
+     color: #183B56;
+     width: 539px;
+}
+
+.top_sct_smhead {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 36px;
+     color: #183B56;
+     width: 555px;
+     margin-top: 24px;
+     margin-bottom: 30px;
+}
+
+.rightsection_margin {
+     margin-top: 54px;
+}
+
+.top_right_box_hed {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 22px;
+     color: #183B56;
+
+}
+
+.top_right_box_pa {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 22px;
+     color: #5A7184;
+}
+
+.btn_top_scton {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 25px;
+     text-align: center;
+     color: #FFFFFF;
+     background: #1565D8;
+     border-radius: 8px;
+     height: 56px;
+     width: 230px;
+     border: none;
+     margin-top: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////SERVICE BANNER START\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.sevice_banner {
+     margin-top: 144px;
+}
+
+.service_ctnt {
+     text-align: center;
+}
+
+.service_sm_head {
+     /* op */
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 19px;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     color: #36B37E;
+     margin-bottom: 16px;
+}
+
+.service_head {
+     font-family: 'HK Grotesk';
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 48px;
+     /* identical to box height, or 133% */
+     letter-spacing: 0.2px;
+     color: #183B56;
+     margin-bottom: 16px;
+}
+
+.service_sm_head_2 {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 32px;
+     text-align: center;
+     color: #5A7184;
+     margin-bottom: 4px;
+}
+
+
+.service_box {
+     /* width: 415px; */
+     height: 384px;
+     border: 1px solid #E5EAF4;
+     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.03);
+     border-radius: 16px;
+     padding: 40px 40px;
+}
+
+.service_box_img {
+     margin-bottom: 34px;
+}
+
+.service_box_head {
+     font-family: 'HK Grotesk';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 32px;
+     letter-spacing: 0.2px;
+     color: #183B56;
+}
+
+.service_box_details {
+     Width: 280px;
+     Height: 94px;
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 32px;
+}
+
+.service_box_a {
+
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 25px;
+     text-align: center;
+     color: #1565D8;
+
+}
+
+
+/* ////////////////////////////////////////////// HERO BG \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.hero_banner {
+     margin-top: 144px;
+}
+
+/* .hero_bg {
+     background-image: url(../images/herobg.png);
+     height: 635px;
+     display: flex;
+     align-items: flex-end;
+} */
+
+.hero_box {
+     position: absolute;
+     background: #FFFFFF;
+     box-shadow: 0px 50px 50px rgb(0 0 0 / 5%);
+     border-radius: 16px;
+     top: 80px;
+     left: 150px;
+     height: 500px;
+     width: 600px;
+     padding: 52px;
+     z-index: 1;
+}
+
+.hero_box_details {
+     font-family: 'HK Grotesk';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 52px;
+     letter-spacing: 0.2px;
+     color: #183B56;
+     margin-top: 24px;
+}
+
+.hero_box_name {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 28px;
+     color: #183B56;
+}
+
+.hero_wave {
+     position: absolute;
+     bottom: -80px;
+}
+
+.tabletherobg {
+     display: none;
+}
+
+.tabletherowave {
+     display: none;
+}
+
+/* //////////////////////////// BENEFITS BANNER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.benefits_banner {
+     margin-top: 144px;
+}
+
+.benefit_sm_head {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 19px;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     color: #36B37E;
+
+}
+
+.benefit_head {
+     font-family: 'HK Grotesk';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 48px;
+     /* or 133% */
+
+     letter-spacing: 0.2px;
+
+     color: #183B56;
+}
+
+.benefit_box_head {
+     font-family: 'HK Grotesk';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 22px;
+     line-height: 32px;
+     letter-spacing: 0.2px;
+     color: #183B56;
+
+}
+
+.benefit_box_details {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 32px;
+     color: #5A7184;
+}
+
+.bene_hr {
+     margin-top: 90px;
+     border: 1px solid #E5EAF4;
+}
+
+/* /////////////////////////////////////PROCTECT BANNER\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.protect_banner {
+     margin-top: 144px;
+}
+
+.protect_left_pos {
+     position: absolute;
+     bottom: 90px;
+     left: 73px;
+}
+
+.protect_right_pos {
+     position: absolute;
+     bottom: 38px;
+     left: 73px;
+}
+
+.protect_image {
+     filter: drop-shadow(0px 20px 50px rgba(15, 24, 44, 0.15));
+     width: 100%;
+
+}
+
+.protect_head {
+     width: 459px;
+     margin: 0 auto;
+     height: 144px;
+     font-family: 'HK Grotesk';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 48px;
+     /* or 133% */
+     letter-spacing: 0.2px;
+     color: #FFFFFF;
+
+
+}
+
+
+
+/* ////////////////////////////// TESTIMONIAL BANNER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.testimonial_banner {
+     margin-top: 144px;
+}
+
+.testimonial_crd_details {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 32px;
+     color: #183B56;
+     Width: 263px;
+     Height: 153px;
+}
+
+.testi_crd_authr {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 22px;
+     color: #183B56;
+}
+
+.testi_crd_verifi {
+     font-family: 'Open Sans', sans-serif;
+     font-style: italic;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 19px;
+     color: #5A7184;
+}
+
+.avtr_smcrd {
+     height: 58px;
+}
+
+.avtr5 {
+     position: absolute;
+     left: 144px;
+     z-index: 5;
+     top: 8px;
+}
+
+.avtr6 {
+     position: absolute;
+     left: 178px;
+     z-index: 1;
+}
+
+.test_sm_crd_detail {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-size: 16px;
+     line-height: 22px;
+     text-align: center;
+     color: #183B56;
+     height: 44px;
+     width: 230px;
+     margin: 14px auto;
+
+}
+
+.fnt-wgt {
+     font-weight: 700;
+}
+
+.avtr7 {
+     position: absolute;
+     left: 210px;
+     top: 8px;
+}
+
+.brdline::before {
+     content: "";
+     background-image: url(../images/Divider.png);
+     width: 16px;
+     height: 40px;
+     position: absolute;
+     left: 0;
+     top: 23px;
+}
+
+.brdline::after {
+     content: "";
+     background-image: url(../images/Divider.png);
+     width: 16px;
+     height: 40px;
+     position: absolute;
+     right: 0;
+     top: 35px;
+}
+
+
+/* ///////////////////////////////////// CTA BANNER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.cta_bg {
+     background-image: url(../images/ctaBase.png);
+     height: 541px;
+     padding: 20px 0px;
+
+}
+
+.cta_wave1 {
+     margin-bottom: -3px;
+}
+
+.cta_head {
+     font-family: 'HK Grotesk';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 48px;
+     /* or 133% */
+
+     letter-spacing: 0.2px;
+
+     color: #FFFFFF;
+}
+
+.input_mail {
+     background: #FFFFFF;
+     border-radius: 8px;
+     width: 320px;
+     height: 56px;
+     padding: 0px 8px;
+     box-sizing: border-box;
+}
+
+.cta_btn {
+     background: #1565D8;
+     border-radius: 8px;
+     width: 166px;
+     height: 56px;
+     border: none;
+     color: #fff;
+}
+
+.cta_smhead {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 28px;
+     margin-top: 24px;
+     color: #5A7184;
+
+}
+
+.cta_box1 {
+     background: #FFFFFF;
+     border: 1px solid #E5EAF4;
+     box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.15);
+     border-radius: 16px;
+     height: 166px;
+     width: 466px;
+     position: absolute;
+     padding: 32px;
+     box-sizing: border-box;
+}
+
+.cta_box_ctnt {
+     display: flex;
+     align-items: baseline;
+}
+
+.cta_box1_index {
+     z-index: 1;
+}
+
+.cta_box2_pos {
+     left: 38px;
+     top: 143px;
+}
+
+.cta_box_head {
+     font-family: 'HK Grotesk';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 22px;
+     line-height: 32px;
+     letter-spacing: 0.2px;
+     color: #183B56;
+
+}
+
+.cta_box_smhead {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 32px;
+     color: #5A7184;
+}
+
+.cta_hr {
+     border: 1px solid #1A3245;
+     margin-top: 90px;
+}
+
+
+/* //////////////////////////////////////////// FOOTER BANNER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.foot_bg {
+     background-image: url(../images/foot_bg.png);
+     height: 588px;
+     padding-top: 95px;
+}
+
+.foter_info_txt {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 28px;
+     color: #5A7184;
+     margin-top: 16px;
+}
+
+.fot_icon {
+     color: #5A7184;
+     padding-right: 10px;
+}
+
+.fot_icon_img {
+     display: none;
+}
+
+.fot_list_head {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 25px;
+     color: #5A7184;
+
+}
+
+.foter_info p {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 28px;
+     color: #959EAD
+}
+
+.lst_fot {
+     margin-top: 90px;
+}

@@ -1,0 +1,258 @@
+@media only screen and (min-width: 310px) and (max-width:575px) {}
+
+@media only screen and (min-width:576px) and (max-width: 767.98px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+     .display_img {
+          display: none;
+     }
+
+     .display_img2 {
+
+          display: block;
+          width: 100%;
+          height: 580px;
+          padding-top: 76px;
+     }
+
+     .row_wd {
+          width: auto;
+          margin-right: 0;
+          flex-direction: row-reverse;
+     }
+
+     .top_sct_head {
+          width: 370px;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 60px;
+          font-style: normal;
+          margin: 0 auto;
+     }
+
+     .top_sct_smhead {
+          width: 374px;
+          margin: 0 auto;
+          margin-top: 48px;
+          margin-bottom: 30px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 36px;
+
+     }
+
+     .lftbox_wd {
+          width: 393px;
+          margin: 0 auto;
+     }
+
+     .pd-rmov {
+          padding: 0;
+     }
+
+     .rightsection_margin {
+          margin-top: 0;
+     }
+
+     .service_box {
+          width: 100%;
+          height: auto;
+          display: flex;
+          gap: 35px;
+     }
+
+     .service_box_details {
+          width: 100%;
+          height: auto;
+          word-spacing: 1px;
+     }
+
+     .protect_head {
+          width: 100%;
+          height: auto;
+          font-size: 24px;
+          line-height: 32px;
+     }
+
+     .protect_left_pos {
+          bottom: 10px;
+          left: 53px;
+     }
+
+     .protect_right_pos {
+          bottom: 10px;
+          left: 53px;
+     }
+
+     .testimonial_crd_details {
+          width: 100%;
+          height: 135px;
+     }
+
+     .avtr5 {
+          left: 64px;
+
+     }
+
+     .avtr6 {
+
+          left: 98px;
+     }
+
+     .avtr7 {
+          left: 130px;
+     }
+
+     .brdline::before {
+          left: -12px;
+     }
+
+     .brdline::after {
+          right: -24px;
+          top: 22px;
+     }
+
+     .tabletherowave {
+          position: absolute;
+          bottom: -3px;
+          display: block;
+          width: 100%;
+          height: 175px;
+     }
+
+     .tabletherobg {
+          display: block;
+          width: 100%;
+          height: 655px;
+     }
+
+     .hero_box {
+          top: 40px;
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+          text-align: center;
+     }
+
+     .cta_box1 {
+          width: 100%;
+     }
+
+     .pos_md_h {
+          height: 330px;
+     }
+
+     .cta_bg {
+          height: auto;
+     }
+
+     .flx_drtion {
+          flex-direction: column-reverse;
+     }
+
+     .fot_icon {
+          display: none;
+     }
+
+     .fot_icon_img {
+          display: inline-block;
+     }
+
+     .foot_bg {
+          height: auto;
+          padding-top: 65px;
+          padding-bottom: 20px;
+     }
+
+     .mt-md-54 {
+          margin-top: 54px;
+          text-align: center;
+     }
+
+     .cta_hr {
+          display: none;
+     }
+
+     .service_head {
+          font-size: 32px;
+          line-height: 40px;
+     }
+
+     .benefit_head {
+          font-size: 32px;
+          line-height: 40px;
+          text-align: center;
+     }
+
+     .cta_head {
+          width: 555px;
+          margin: 0 auto;
+          margin-bottom: 25px;
+     }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+     .img_width {
+          width: 100%;
+          height: 100%;
+     }
+
+     .top_sct_head {
+          width: 100%;
+     }
+
+     .top_sct_smhead {
+          width: 100%;
+     }
+
+     .service_box_details {
+          width: 100%;
+          height: auto;
+     }
+
+     .protect_head {
+          width: 100%;
+     }
+
+     .testimonial_crd_details {
+          width: 100%;
+          height: 180px;
+     }
+
+     .cta_box1 {
+          width: 100%;
+          height: auto;
+     }
+
+     .cta_box2_pos {
+          left: 13px;
+          top: 143px;
+     }
+
+
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+     .img_width {
+          width: 95%;
+     }
+
+     .top_sct_head {
+          width: 100%;
+     }
+
+     .top_sct_smhead {
+          width: 100%;
+     }
+}
+
+@media only screen and (min-width:1400px) {
+     .container {
+          max-width: 1320px;
+          margin: 0 auto;
+     }
+}
