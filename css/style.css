@@ -114,7 +114,16 @@ a {
 }
 
 .img_width {
-     width: 90%;
+     height: 666px;
+     width: 641px;
+}
+
+.gap_top_setion {
+     gap: 18px;
+}
+
+.lftbox_wd {
+     width: 100%;
 }
 
 .display_img {
@@ -149,7 +158,13 @@ a {
 }
 
 .rightsection_margin {
-     margin-top: 54px;
+     margin-top: 83px;
+     width: 555px;
+     height: 504px;
+}
+
+.top_gap_shot_info {
+     margin-top: 32px;
 }
 
 .top_right_box_hed {
@@ -187,39 +202,6 @@ a {
      margin-top: 40px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ////////////////////////////SERVICE BANNER START\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
@@ -266,9 +248,13 @@ a {
      margin-bottom: 4px;
 }
 
+.service_sm_head_Y {
+     display: none;
+}
+
 
 .service_box {
-     /* width: 415px; */
+     width: 404px;
      height: 384px;
      border: 1px solid #E5EAF4;
      box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.03);
@@ -277,7 +263,11 @@ a {
 }
 
 .service_box_img {
-     margin-bottom: 34px;
+     margin-bottom: 25px;
+}
+
+.round img {
+     width: 24px;
 }
 
 .service_box_head {
@@ -298,6 +288,8 @@ a {
      font-weight: 400;
      font-size: 18px;
      line-height: 32px;
+     color: #5A7184;
+     margin-bottom: 32px;
 }
 
 .service_box_a {
@@ -312,6 +304,20 @@ a {
 
 }
 
+.service_points {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 25px;
+     color: #183B56;
+
+
+}
+
+.icon_right {
+     font-size: 14px;
+}
 
 /* ////////////////////////////////////////////// HERO BG \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 .hero_banner {
@@ -324,18 +330,26 @@ a {
      display: flex;
      align-items: flex-end;
 } */
+.herobg1 {
+     height: 580px;
+}
 
 .hero_box {
      position: absolute;
      background: #FFFFFF;
      box-shadow: 0px 50px 50px rgb(0 0 0 / 5%);
      border-radius: 16px;
-     top: 80px;
-     left: 150px;
+     top: 48px;
+     /* left: 150px; */
      height: 500px;
      width: 600px;
      padding: 52px;
      z-index: 1;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 702px;
+     /* text-align: center; */
 }
 
 .hero_box_details {
@@ -347,6 +361,7 @@ a {
      letter-spacing: 0.2px;
      color: #183B56;
      margin-top: 24px;
+     margin-bottom: 24px;
 }
 
 .hero_box_name {
@@ -356,11 +371,13 @@ a {
      font-size: 20px;
      line-height: 28px;
      color: #183B56;
+     padding-right: 16px;
 }
 
 .hero_wave {
      position: absolute;
-     bottom: -80px;
+     bottom: -86px;
+     height: 175px;
 }
 
 .tabletherobg {
@@ -371,9 +388,18 @@ a {
      display: none;
 }
 
+.hero_verified {
+     font-family: 'Open Sans', sans-serif;
+     font-style: italic;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 22px;
+     color: #5A7184;
+}
+
 /* //////////////////////////// BENEFITS BANNER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 .benefits_banner {
-     margin-top: 144px;
+     margin-top: 125px;
 }
 
 .benefit_sm_head {
@@ -394,11 +420,16 @@ a {
      font-weight: 700;
      font-size: 36px;
      line-height: 48px;
-     /* or 133% */
-
      letter-spacing: 0.2px;
-
      color: #183B56;
+}
+
+.benefit_head2 {
+     display: none;
+}
+
+.row_bene2 {
+     margin-top: 64px;
 }
 
 .benefit_box_head {
@@ -419,10 +450,16 @@ a {
      font-size: 18px;
      line-height: 32px;
      color: #5A7184;
+     margin-bottom: 0;
+     width: 344px;
+}
+
+.bx_benefitdetails_2 {
+     display: none;
 }
 
 .bene_hr {
-     margin-top: 90px;
+     margin-top: 124px;
      border: 1px solid #E5EAF4;
 }
 
@@ -434,19 +471,23 @@ a {
 .protect_left_pos {
      position: absolute;
      bottom: 90px;
-     left: 73px;
+     left: 58px;
 }
 
 .protect_right_pos {
      position: absolute;
      bottom: 38px;
-     left: 73px;
+     left: 58px;
 }
 
 .protect_image {
      filter: drop-shadow(0px 20px 50px rgba(15, 24, 44, 0.15));
      width: 100%;
 
+}
+
+.protc_row {
+     margin-top: 56px;
 }
 
 .protect_head {
@@ -490,6 +531,11 @@ a {
      font-size: 16px;
      line-height: 22px;
      color: #183B56;
+     text-align: left;
+}
+
+.testimonial_author_gap {
+     gap: 12px;
 }
 
 .testi_crd_verifi {
@@ -499,6 +545,11 @@ a {
      font-size: 14px;
      line-height: 19px;
      color: #5A7184;
+}
+
+.testi_crd_verifi img {
+     width: 16px;
+     height: 16px;
 }
 
 .avtr_smcrd {
@@ -561,8 +612,14 @@ a {
      top: 35px;
 }
 
+.tst_avtar_row {
+     margin-top: 144px;
+}
 
 /* ///////////////////////////////////// CTA BANNER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.cta_banner {
+     margin-top: 120px;
+}
 
 .cta_bg {
      background-image: url(../images/ctaBase.png);
@@ -573,6 +630,7 @@ a {
 
 .cta_wave1 {
      margin-bottom: -3px;
+     height: 175px;
 }
 
 .cta_head {
@@ -581,10 +639,8 @@ a {
      font-weight: 700;
      font-size: 36px;
      line-height: 48px;
-     /* or 133% */
-
      letter-spacing: 0.2px;
-
+     margin-bottom: 32px;
      color: #FFFFFF;
 }
 
@@ -636,10 +692,11 @@ a {
 
 .cta_box1_index {
      z-index: 1;
+     left: 64px;
 }
 
 .cta_box2_pos {
-     left: 38px;
+     left: 101px;
      top: 143px;
 }
 
@@ -684,7 +741,7 @@ a {
      font-size: 16px;
      line-height: 28px;
      color: #5A7184;
-     margin-top: 16px;
+     margin-top: 28px;
 }
 
 .fot_icon {
@@ -703,6 +760,7 @@ a {
      font-size: 18px;
      line-height: 25px;
      color: #5A7184;
+     margin-bottom: 31px;
 
 }
 
