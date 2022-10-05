@@ -307,6 +307,7 @@
           display: block;
           font-size: 14px;
           line-height: 19px;
+          margin-top: 5px;
      }
 
      .hero_box_details {
@@ -489,6 +490,13 @@
 }
 
 @media only screen and (min-width:576px) and (max-width: 767.98px) {
+     .hero_verified {
+          display: block;
+          font-size: 14px;
+          line-height: 19px;
+          margin-top: 5px;
+     }
+
      .xxsrow_avtr {
           gap: 40px;
      }

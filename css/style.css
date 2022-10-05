@@ -397,6 +397,11 @@ a {
      color: #5A7184;
 }
 
+.hero_verified img {
+     width: 20px;
+     height: 20px;
+}
+
 /* //////////////////////////// BENEFITS BANNER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 .benefits_banner {
      margin-top: 125px;
