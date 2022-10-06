@@ -1,4 +1,8 @@
 @media only screen and (min-width: 310px) and (max-width:575.98px) {
+     .navBar_nav_gap {
+          gap: 0px;
+     }
+
      .top_gap_shot_info {
           margin-top: 0px;
      }
@@ -495,6 +499,10 @@
 }
 
 @media only screen and (min-width:576px) and (max-width: 767.98px) {
+     .navBar_nav_gap {
+          gap: 0px;
+     }
+
      .hero_verified {
           display: block;
           font-size: 14px;
@@ -937,6 +945,9 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+     .navBar_nav_gap {
+          gap: 0px;
+     }
 
      .cta_wave1 {
           margin-bottom: -3px;
