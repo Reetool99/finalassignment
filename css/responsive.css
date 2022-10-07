@@ -1,4 +1,8 @@
 @media only screen and (min-width: 310px) and (max-width:575.98px) {
+     .nav_btn_txt_cntr {
+          text-align: center;
+     }
+
      .navBar_nav_gap {
           gap: 0px;
      }
@@ -139,7 +143,7 @@
      .service_sm_head_2 {
           font-size: 16px;
           line-height: 28px;
-          display: initial;
+          width: 272px;
      }
 
      .xs_mgt_top_ser {
@@ -241,6 +245,8 @@
           height: auto;
           font-size: 16px;
           line-height: 28px;
+          width: 272px;
+          margin: 16px auto;
      }
 
      .row_gap_xs {
@@ -505,6 +511,10 @@
 }
 
 @media only screen and (min-width:576px) and (max-width: 767.98px) {
+     .nav_btn_txt_cntr {
+          text-align: center;
+     }
+
      .navBar_nav_gap {
           gap: 0px;
      }
@@ -954,6 +964,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+     .nav_btn_txt_cntr {
+          text-align: center;
+     }
+
      .navBar_nav_gap {
           gap: 0px;
      }
@@ -994,7 +1008,7 @@
 
      .top_sct_head {
           width: 402px;
-          font-weight: 700;
+          font-weight: 600;
           font-size: 48px;
           line-height: 60px;
           font-style: normal;
