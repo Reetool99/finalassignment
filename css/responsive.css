@@ -132,6 +132,8 @@
      .service_head {
           font-size: 28px;
           line-height: 36px;
+          margin: 16px auto;
+          width: 272px;
      }
 
      .service_sm_head_2 {
@@ -205,6 +207,7 @@
           margin-right: auto;
           left: 0;
           right: 0;
+          bottom: 0;
 
      }
 
@@ -214,6 +217,7 @@
           margin-right: auto;
           left: 0;
           right: 0;
+          bottom: 0;
      }
 
      .protect_head {
@@ -465,7 +469,9 @@
      }
 
      .cta_box_ctnt {
-          display: block;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
      }
 
      .row_bene2 {
@@ -706,6 +712,7 @@
           font-size: 16px;
           line-height: 28px;
           width: auto;
+          display: block;
      }
 
      .protect_left_pos {
@@ -924,7 +931,9 @@
      }
 
      .cta_box_ctnt {
-          display: block;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
      }
 
      .top_gap_shot_info {
