@@ -225,7 +225,7 @@ a {
 .service_round {
      width: 64px;
      height: 64px;
-     border: 1px solid #1565D8;
+     border: 1px solid rgba(21, 101, 216, 0.2);
      border-radius: 16px;
      display: flex;
      align-items: center;
@@ -430,7 +430,7 @@ a {
 .bene_round {
      width: 48px;
      height: 48px;
-     border: 1px solid #1565D8;
+     border: 1px solid rgba(21, 101, 216, 0.2);
      border-radius: 16px;
      display: flex;
      align-items: center;
