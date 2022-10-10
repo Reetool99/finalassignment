@@ -222,6 +222,16 @@ a {
      text-align: center;
 }
 
+.service_round {
+     width: 64px;
+     height: 64px;
+     border: 1px solid #1565D8;
+     border-radius: 16px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
 .service_sm_head {
      /* op */
      font-family: 'Open Sans', sans-serif;
@@ -415,6 +425,16 @@ a {
 /* //////////////////////////// BENEFITS BANNER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 .benefits_banner {
      margin-top: 125px;
+}
+
+.bene_round {
+     width: 48px;
+     height: 48px;
+     border: 1px solid #1565D8;
+     border-radius: 16px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
 
 .benefit_sm_head {
