@@ -1,3 +1,908 @@
+@media only screen and (min-width:1400px) {
+     .container {
+          max-width: 1320px;
+          margin: 0 auto;
+     }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+     .row_wd {
+          align-items: center;
+     }
+
+     .navBar_nav_gap {
+          gap: 20px;
+     }
+
+     .img_width {
+          width: 95%;
+     }
+
+     .top_sct_head {
+          width: 100%;
+     }
+
+     .top_sct_smhead {
+          width: 100%;
+     }
+
+     .hero_box {
+          right: 500px;
+     }
+
+     .service_box {
+          width: auto;
+     }
+
+     .rightsection_margin {
+          margin: 0px 0px;
+          width: 555px;
+          padding: 30px 0px;
+     }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+     /* .row_wd {
+          align-items: center;
+     } */
+
+     .navBar_nav_gap {
+          gap: 0px;
+     }
+
+     .img_width {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+          border-bottom-right-radius: 16px;
+          border-top-right-radius: 16px;
+     }
+
+     .rightsection_margin {
+          margin: 0px 0px;
+          width: auto;
+          height: auto;
+     }
+
+     .top_sct_head {
+          width: 100%;
+     }
+
+     .top_sct_smhead {
+          width: 100%;
+     }
+
+     .service_box_details {
+          width: 100%;
+          height: auto;
+     }
+
+     .protect_head {
+          width: 100%;
+     }
+
+     .testimonial_crd_details {
+          width: 100%;
+          height: 180px;
+     }
+
+     .cta_box1 {
+          width: 100%;
+          height: auto;
+     }
+
+     .cta_box2_pos {
+          left: 13px;
+          top: 143px;
+     }
+
+     .hero_box {
+          right: 240px;
+          top: 40px;
+          width: 500px;
+          height: auto;
+          padding: 27px;
+     }
+
+     .hero_box_details {
+          font-size: 28px;
+          line-height: 48px;
+     }
+
+     .herobg1 {
+          height: 484px;
+     }
+
+     .benefit_box_details {
+          width: auto;
+     }
+
+     .protect_left_pos {
+          position: absolute;
+          bottom: 90px;
+          left: 31px;
+     }
+
+     .protect_right_pos {
+          position: absolute;
+          bottom: 38px;
+          left: 31px;
+     }
+
+     .service_box {
+          width: auto;
+     }
+
+     .cta_box1_index {
+
+          left: 0px;
+     }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+
+     .nav_btn_txt_cntr {
+          text-align: center;
+          margin-left: 0;
+     }
+
+     .navBar_nav_gap {
+          gap: 0px;
+     }
+
+     .cta_wave1 {
+          margin-bottom: -3px;
+          height: auto;
+     }
+
+     .bene_hr {
+          margin-top: 96px;
+          border: 1px solid #E5EAF4;
+     }
+
+     .nav_height {
+          height: auto;
+          padding: 12px;
+     }
+
+     .display_img {
+          display: none;
+     }
+
+     .display_img2 {
+
+          display: block;
+          width: 100%;
+          height: 590px;
+          /* padding-top: 76px; */
+          padding: 30px 0px;
+     }
+
+     .row_wd {
+          width: auto;
+          margin-right: 0;
+          flex-direction: row-reverse;
+          margin-top: 48px;
+          align-items: center;
+     }
+
+     .top_sct_head {
+          width: 402px;
+          font-weight: 600;
+          font-size: 48px;
+          line-height: 60px;
+          font-style: normal;
+          margin: 0 auto;
+     }
+
+     .top_sct_smhead {
+          width: 402px;
+          margin: 0 auto;
+          margin-top: 48px;
+          margin-bottom: 30px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 36px;
+
+     }
+
+     .lftbox_wd {
+          width: 402px;
+          margin: 0 auto;
+     }
+
+     .pd-rmov {
+          padding: 0;
+     }
+
+     .rightsection_margin {
+          margin-top: 0;
+          width: auto;
+          height: auto;
+          padding: 0px 0px;
+     }
+
+     .service_box {
+          display: flex;
+          height: 242px;
+          gap: 35px;
+          width: 650px;
+          margin: 0 auto;
+     }
+
+     .service_box_details {
+          width: 100%;
+          height: auto;
+          word-spacing: 1px;
+     }
+
+     .protect_head {
+          width: 100%;
+          height: auto;
+          font-size: 24px;
+          line-height: 32px;
+     }
+
+     .protect_left_pos {
+          bottom: 10px;
+          left: 19px;
+     }
+
+     .protect_right_pos {
+          bottom: 10px;
+          left: 19px;
+     }
+
+     .testimonial_crd_details {
+          width: 100%;
+          height: 135px;
+     }
+
+     .avtr5 {
+          left: 64px;
+
+     }
+
+     .avtr6 {
+
+          left: 98px;
+     }
+
+     .avtr7 {
+          left: 130px;
+     }
+
+     .brdline::before {
+          left: -12px;
+     }
+
+     .brdline::after {
+          right: -24px;
+          top: 22px;
+     }
+
+     .tabletherowave {
+          position: absolute;
+          bottom: -3px;
+          display: block;
+          width: 100%;
+          height: 175px;
+     }
+
+     .tabletherobg {
+          display: block;
+          width: 100%;
+          height: 655px;
+     }
+
+     .hero_box {
+          top: 40px;
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+          /* text-align: center; */
+     }
+
+     .cta_box1 {
+          width: 75%;
+     }
+
+     .pos_md_h {
+          height: 330px;
+     }
+
+     .cta_bg {
+          height: auto;
+     }
+
+     .flx_drtion {
+          flex-direction: column-reverse;
+     }
+
+     .fot_icon {
+          display: none;
+     }
+
+     .fot_icon_img {
+          display: inline-block;
+     }
+
+     .foot_bg {
+          height: auto;
+          padding-top: 65px;
+          margin-top: -10px;
+          padding-bottom: 32px;
+     }
+
+     .mt-md-54 {
+          margin-top: 54px;
+          text-align: center;
+     }
+
+     .cta_hr {
+          display: none;
+     }
+
+     .service_head {
+          font-size: 32px;
+          line-height: 40px;
+     }
+
+     .benefit_head {
+          font-size: 32px;
+          line-height: 40px;
+          text-align: center;
+     }
+
+     .bene_tblet_mrg {
+          margin-top: 48px;
+     }
+
+     .cta_head {
+          width: 555px;
+          margin: 0 auto;
+          margin-bottom: 25px;
+     }
+
+     .md-txt-cntr {
+          text-align: center;
+     }
+
+     .cta_box2_pos {
+          left: 38px;
+          top: 143px;
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+          left: 70px;
+          right: 0;
+          /* text-align: center; */
+     }
+
+     .cta_box1_index {
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0px;
+          right: 0;
+          /* text-align: center; */
+     }
+
+     .cta_box_ctnt {
+          display: flex;
+          align-items: baseline;
+          gap: 16px;
+     }
+
+     .sevice_banner {
+          margin-top: 96px;
+     }
+
+     .hero_banner {
+          margin-top: 96px;
+     }
+
+     .benefits_banner {
+          margin-top: 5px;
+     }
+
+     .protect_banner {
+          margin-top: 96px;
+     }
+
+     .protc_row {
+          margin-top: 56px;
+     }
+
+     .testimonial_banner {
+          margin-top: 120px;
+     }
+
+     .cta_banner {
+          margin-top: 49px;
+     }
+
+     .row_bene2 {
+          margin-top: 0px;
+     }
+
+     .tb_bene_box_mr {
+          margin-top: 62px;
+     }
+
+     .tab_serv_gp {
+          gap: 20px;
+     }
+
+     .top_gap_shot_info {
+          margin-top: 0px;
+     }
+}
+
+@media only screen and (min-width:576px) and (max-width: 767.98px) {
+     .bene_round {
+          margin: 0 auto;
+     }
+
+     .nav_btn_txt_cntr {
+          text-align: center;
+          margin-left: 0;
+     }
+
+     .navBar_nav_gap {
+          gap: 0px;
+     }
+
+     .hero_verified {
+          display: block;
+          font-size: 14px;
+          line-height: 19px;
+          margin-top: 5px;
+     }
+
+     .xxsrow_avtr {
+          gap: 40px;
+     }
+
+     .service_sm_head_Y {
+          display: initial;
+     }
+
+     .protc_row {
+          margin-top: 0px;
+     }
+
+     .tst_avtar_row {
+          margin-top: 96px;
+     }
+
+     .cta_wave1 {
+          margin-bottom: -3px;
+          height: auto;
+     }
+
+     .top_gap_shot_info {
+          margin-top: 0px;
+     }
+
+     .sm_dis_img {
+          display: block !important;
+     }
+
+     .mt-54 {
+          margin-top: 30px;
+     }
+
+     .display_img {
+          display: none;
+     }
+
+     .nav_height {
+          height: auto;
+          padding: 16px;
+     }
+
+     .row_wd {
+          width: auto;
+          margin-right: 0;
+          flex-direction: column-reverse;
+     }
+
+     .top_sct_head {
+          /* width: 272px; */
+          width: 505px;
+          font-size: 32px;
+          line-height: 40px;
+          /* margin: 0 130px; */
+          margin: 0 auto;
+     }
+
+     .top_sct_smhead {
+          /* width: 272px; */
+          margin: 0 auto;
+          width: 505px;
+          /* margin: 0 130px; */
+          margin-top: 28px;
+          margin-bottom: 30px;
+          font-size: 16px;
+          line-height: 28px;
+
+     }
+
+     .lftbox_wd {
+          width: 510px;
+          margin: 0 auto;
+     }
+
+     .img_width {
+          width: 95%;
+          margin-top: 30px;
+          height: auto;
+     }
+
+     .btn_top_scton {
+          width: 195px;
+          height: 48px;
+          font-size: 16px;
+          line-height: 22px;
+          margin-top: 30px;
+     }
+
+     .top_right_box_hed {
+          font-size: 14px;
+          line-height: 20px;
+          padding: 0px 10px;
+     }
+
+     .top_right_box_pa {
+          font-size: 14px;
+          line-height: 20px;
+          padding: 0px 10px;
+     }
+
+     .sm-txt_lft {
+          text-align: left !important;
+          padding: 5px 0px;
+     }
+
+     .mgt-top {
+          margin-top: 50px;
+     }
+
+     .service_box {
+          height: 318px;
+          width: auto;
+     }
+
+     .service_box_details {
+          width: 100%;
+          height: auto;
+          word-spacing: 1px;
+     }
+
+     .md-txt-cntr {
+          text-align: center;
+     }
+
+     .cntr-bene_box {
+          text-align: center;
+     }
+
+     .benefit_head {
+          display: none;
+     }
+
+     .xs_bene_box_mr {
+          margin-top: 40px;
+     }
+
+     .benefit_head2 {
+          display: block;
+          font-family: 'HK Grotesk';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 36px;
+          text-align: center;
+          letter-spacing: 0.2px;
+          color: #183B56;
+     }
+
+     .bene_hr {
+          margin-top: 56px;
+     }
+
+     .service_box_img {
+          margin-bottom: 20px;
+     }
+
+     .service_head {
+          font-size: 28px;
+          line-height: 36px;
+     }
+
+     .service_sm_head_2 {
+          font-size: 16px;
+          line-height: 28px;
+          display: initial;
+     }
+
+     .service_points {
+          font-size: 14px;
+          line-height: 20px;
+     }
+
+     .service_box_head {
+          font-size: 20px;
+          line-height: 24px;
+     }
+
+     .service_box_details {
+          font-size: 16px;
+          line-height: 28px;
+     }
+
+     .service_box_a {
+          font-size: 16px;
+          line-height: 22px;
+     }
+
+     .benefit_box_head {
+          font-size: 20px;
+          line-height: 24px;
+     }
+
+     .benefit_box_details {
+          font-size: 16px;
+          line-height: 28px;
+          width: auto;
+          display: block;
+     }
+
+     .protect_left_pos {
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+
+     }
+
+     .protect_right_pos {
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+     }
+
+     .protect_head {
+          font-size: 30px;
+          line-height: 34px;
+     }
+
+     .protect_sm {
+          margin-top: 30px;
+     }
+
+     .testi_sm_cntr {
+          text-align: center;
+     }
+
+     .testimonial_crd_details {
+          width: 100%;
+          height: auto;
+          font-size: 16px;
+          line-height: 28px;
+     }
+
+     .test_sm_justicntr {
+          justify-content: center;
+     }
+
+     .brdline::before {
+          display: none;
+     }
+
+     .brdline::after {
+          display: none;
+     }
+
+     .avtr5 {
+          margin-left: auto;
+          margin-right: auto;
+          left: -53px;
+          right: 0;
+          text-align: center;
+     }
+
+     .avtr6 {
+          margin-left: auto;
+          margin-right: auto;
+          left: 0px;
+          right: -9px;
+          text-align: center;
+     }
+
+     .avtr7 {
+          margin-left: auto;
+          margin-right: auto;
+          left: 70px;
+          right: 0;
+          text-align: center;
+     }
+
+     .tabletherobg {
+          display: block;
+          width: 100%;
+          height: 566px;
+     }
+
+     .tabletherowave {
+          position: absolute;
+          bottom: -3px;
+          display: block;
+          width: 100%;
+          height: 175px;
+     }
+
+     .hero_box {
+          top: 57px;
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+          /* text-align: center; */
+          height: auto;
+          width: 400px;
+     }
+
+     .hero_box_details {
+          font-size: 20px;
+          line-height: 36px;
+     }
+
+     .hero_box_name {
+          font-size: 16px;
+          line-height: 22px;
+     }
+
+     .pos_md_h {
+          height: auto;
+     }
+
+     .cta_bg {
+          height: auto;
+     }
+
+     .flx_drtion {
+          flex-direction: column-reverse;
+     }
+
+     .cta_box1 {
+          position: initial;
+          margin-bottom: 20px;
+          width: auto;
+          height: auto;
+          padding: 20px;
+     }
+
+     .cta_box_head {
+          font-size: 20px;
+          line-height: 24px;
+     }
+
+     .cta_box_smhead {
+          font-size: 16px;
+          line-height: 28px;
+     }
+
+     .cta_head {
+          font-size: 24px;
+          line-height: 32px;
+     }
+
+     .sm_cta_txt {
+          color: #B3BAC5;
+     }
+
+     .cta_smhead {
+          font-size: 14px;
+          line-height: 27px;
+     }
+
+     .cta_hr {
+          display: none;
+     }
+
+     .foot_bg {
+          height: auto;
+          padding-top: 65px;
+          padding-bottom: 20px;
+          margin-top: -5px;
+     }
+
+     .fotor_sm_odr {
+          order: 2;
+          text-align: center;
+          margin-top: 15px;
+     }
+
+     .lst_fot {
+          display: none;
+     }
+
+     .protect_banner {
+          margin-top: 56px;
+     }
+
+     .benefits_banner {
+          margin-top: 18px;
+     }
+
+     .testimonial_banner {
+          margin-top: 80px;
+     }
+
+     .hero_banner {
+          margin-top: 48px;
+     }
+
+     .sevice_banner {
+          margin-top: 80px;
+     }
+
+     .fot_list_head {
+          font-size: 16px;
+          line-height: 22px;
+     }
+
+     .foter_info_txt {
+          font-size: 14px;
+          line-height: 24px;
+     }
+
+     .foter_info p {
+          font-size: 14px;
+          line-height: 20px;
+     }
+
+     .rightsection_margin {
+          margin-top: 40px;
+          width: auto;
+          height: auto;
+     }
+
+     .cta_box_ctnt {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+     }
+
+     .top_gap_shot_info {
+          margin-top: 0px;
+     }
+
+     .row_bene2 {
+          margin-top: 0px;
+     }
+
+     .fotr_info_tab {
+          margin-top: 39px;
+     }
+
+     .cta_banner {
+          margin-top: 50px;
+     }
+}
+
 @media only screen and (max-width:575.98px) {
      .bene_round {
           margin: 0 auto;
@@ -510,910 +1415,5 @@
 
      .cta_banner {
           margin-top: 50px;
-     }
-}
-
-@media only screen and (min-width:576px) and (max-width: 767.98px) {
-     .bene_round {
-          margin: 0 auto;
-     }
-
-     .nav_btn_txt_cntr {
-          text-align: center;
-          margin-left: 0;
-     }
-
-     .navBar_nav_gap {
-          gap: 0px;
-     }
-
-     .hero_verified {
-          display: block;
-          font-size: 14px;
-          line-height: 19px;
-          margin-top: 5px;
-     }
-
-     .xxsrow_avtr {
-          gap: 40px;
-     }
-
-     .service_sm_head_Y {
-          display: initial;
-     }
-
-     .protc_row {
-          margin-top: 0px;
-     }
-
-     .tst_avtar_row {
-          margin-top: 96px;
-     }
-
-     .cta_wave1 {
-          margin-bottom: -3px;
-          height: auto;
-     }
-
-     .top_gap_shot_info {
-          margin-top: 0px;
-     }
-
-     .sm_dis_img {
-          display: block !important;
-     }
-
-     .mt-54 {
-          margin-top: 30px;
-     }
-
-     .display_img {
-          display: none;
-     }
-
-     .nav_height {
-          height: auto;
-          padding: 16px;
-     }
-
-     .row_wd {
-          width: auto;
-          margin-right: 0;
-          flex-direction: column-reverse;
-     }
-
-     .top_sct_head {
-          /* width: 272px; */
-          width: 505px;
-          font-size: 32px;
-          line-height: 40px;
-          /* margin: 0 130px; */
-          margin: 0 auto;
-     }
-
-     .top_sct_smhead {
-          /* width: 272px; */
-          margin: 0 auto;
-          width: 505px;
-          /* margin: 0 130px; */
-          margin-top: 28px;
-          margin-bottom: 30px;
-          font-size: 16px;
-          line-height: 28px;
-
-     }
-
-     .lftbox_wd {
-          width: 510px;
-          margin: 0 auto;
-     }
-
-     .img_width {
-          width: 95%;
-          margin-top: 30px;
-          height: auto;
-     }
-
-     .btn_top_scton {
-          width: 195px;
-          height: 48px;
-          font-size: 16px;
-          line-height: 22px;
-          margin-top: 30px;
-     }
-
-     .top_right_box_hed {
-          font-size: 14px;
-          line-height: 20px;
-          padding: 0px 10px;
-     }
-
-     .top_right_box_pa {
-          font-size: 14px;
-          line-height: 20px;
-          padding: 0px 10px;
-     }
-
-     .sm-txt_lft {
-          text-align: left !important;
-          padding: 5px 0px;
-     }
-
-     .mgt-top {
-          margin-top: 50px;
-     }
-
-     .service_box {
-          height: 318px;
-          width: auto;
-     }
-
-     .service_box_details {
-          width: 100%;
-          height: auto;
-          word-spacing: 1px;
-     }
-
-     .md-txt-cntr {
-          text-align: center;
-     }
-
-     .cntr-bene_box {
-          text-align: center;
-     }
-
-     .benefit_head {
-          display: none;
-     }
-
-     .xs_bene_box_mr {
-          margin-top: 40px;
-     }
-
-     .benefit_head2 {
-          display: block;
-          font-family: 'HK Grotesk';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 28px;
-          line-height: 36px;
-          text-align: center;
-          letter-spacing: 0.2px;
-          color: #183B56;
-     }
-
-     .bene_hr {
-          margin-top: 56px;
-     }
-
-     .service_box_img {
-          margin-bottom: 20px;
-     }
-
-     .service_head {
-          font-size: 28px;
-          line-height: 36px;
-     }
-
-     .service_sm_head_2 {
-          font-size: 16px;
-          line-height: 28px;
-          display: initial;
-     }
-
-     .service_points {
-          font-size: 14px;
-          line-height: 20px;
-     }
-
-     .service_box_head {
-          font-size: 20px;
-          line-height: 24px;
-     }
-
-     .service_box_details {
-          font-size: 16px;
-          line-height: 28px;
-     }
-
-     .service_box_a {
-          font-size: 16px;
-          line-height: 22px;
-     }
-
-     .benefit_box_head {
-          font-size: 20px;
-          line-height: 24px;
-     }
-
-     .benefit_box_details {
-          font-size: 16px;
-          line-height: 28px;
-          width: auto;
-          display: block;
-     }
-
-     .protect_left_pos {
-          position: absolute;
-          margin-left: auto;
-          margin-right: auto;
-          left: 0;
-          right: 0;
-
-     }
-
-     .protect_right_pos {
-          position: absolute;
-          margin-left: auto;
-          margin-right: auto;
-          left: 0;
-          right: 0;
-     }
-
-     .protect_head {
-          font-size: 30px;
-          line-height: 34px;
-     }
-
-     .protect_sm {
-          margin-top: 30px;
-     }
-
-     .testi_sm_cntr {
-          text-align: center;
-     }
-
-     .testimonial_crd_details {
-          width: 100%;
-          height: auto;
-          font-size: 16px;
-          line-height: 28px;
-     }
-
-     .test_sm_justicntr {
-          justify-content: center;
-     }
-
-     .brdline::before {
-          display: none;
-     }
-
-     .brdline::after {
-          display: none;
-     }
-
-     .avtr5 {
-          margin-left: auto;
-          margin-right: auto;
-          left: -53px;
-          right: 0;
-          text-align: center;
-     }
-
-     .avtr6 {
-          margin-left: auto;
-          margin-right: auto;
-          left: 0px;
-          right: -9px;
-          text-align: center;
-     }
-
-     .avtr7 {
-          margin-left: auto;
-          margin-right: auto;
-          left: 70px;
-          right: 0;
-          text-align: center;
-     }
-
-     .tabletherobg {
-          display: block;
-          width: 100%;
-          height: 566px;
-     }
-
-     .tabletherowave {
-          position: absolute;
-          bottom: -3px;
-          display: block;
-          width: 100%;
-          height: 175px;
-     }
-
-     .hero_box {
-          top: 57px;
-          position: absolute;
-          margin-left: auto;
-          margin-right: auto;
-          left: 0;
-          right: 0;
-          /* text-align: center; */
-          height: auto;
-          width: 400px;
-     }
-
-     .hero_box_details {
-          font-size: 20px;
-          line-height: 36px;
-     }
-
-     .hero_box_name {
-          font-size: 16px;
-          line-height: 22px;
-     }
-
-     .pos_md_h {
-          height: auto;
-     }
-
-     .cta_bg {
-          height: auto;
-     }
-
-     .flx_drtion {
-          flex-direction: column-reverse;
-     }
-
-     .cta_box1 {
-          position: initial;
-          margin-bottom: 20px;
-          width: auto;
-          height: auto;
-          padding: 20px;
-     }
-
-     .cta_box_head {
-          font-size: 20px;
-          line-height: 24px;
-     }
-
-     .cta_box_smhead {
-          font-size: 16px;
-          line-height: 28px;
-     }
-
-     .cta_head {
-          font-size: 24px;
-          line-height: 32px;
-     }
-
-     .sm_cta_txt {
-          color: #B3BAC5;
-     }
-
-     .cta_smhead {
-          font-size: 14px;
-          line-height: 27px;
-     }
-
-     .cta_hr {
-          display: none;
-     }
-
-     .foot_bg {
-          height: auto;
-          padding-top: 65px;
-          padding-bottom: 20px;
-          margin-top: -5px;
-     }
-
-     .fotor_sm_odr {
-          order: 2;
-          text-align: center;
-          margin-top: 15px;
-     }
-
-     .lst_fot {
-          display: none;
-     }
-
-     .protect_banner {
-          margin-top: 56px;
-     }
-
-     .benefits_banner {
-          margin-top: 18px;
-     }
-
-     .testimonial_banner {
-          margin-top: 80px;
-     }
-
-     .hero_banner {
-          margin-top: 48px;
-     }
-
-     .sevice_banner {
-          margin-top: 80px;
-     }
-
-     .fot_list_head {
-          font-size: 16px;
-          line-height: 22px;
-     }
-
-     .foter_info_txt {
-          font-size: 14px;
-          line-height: 24px;
-     }
-
-     .foter_info p {
-          font-size: 14px;
-          line-height: 20px;
-     }
-
-     .rightsection_margin {
-          margin-top: 40px;
-          width: auto;
-          height: auto;
-     }
-
-     .cta_box_ctnt {
-          display: flex;
-          flex-direction: column;
-          gap: 20px;
-     }
-
-     .top_gap_shot_info {
-          margin-top: 0px;
-     }
-
-     .row_bene2 {
-          margin-top: 0px;
-     }
-
-     .fotr_info_tab {
-          margin-top: 39px;
-     }
-
-     .cta_banner {
-          margin-top: 50px;
-     }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991.98px) {
-
-
-     .nav_btn_txt_cntr {
-          text-align: center;
-          margin-left: 0;
-     }
-
-     .navBar_nav_gap {
-          gap: 0px;
-     }
-
-     .cta_wave1 {
-          margin-bottom: -3px;
-          height: auto;
-     }
-
-     .bene_hr {
-          margin-top: 96px;
-          border: 1px solid #E5EAF4;
-     }
-
-     .nav_height {
-          height: auto;
-          padding: 12px;
-     }
-
-     .display_img {
-          display: none;
-     }
-
-     .display_img2 {
-
-          display: block;
-          width: 100%;
-          height: 590px;
-          /* padding-top: 76px; */
-          padding: 30px 0px;
-     }
-
-     .row_wd {
-          width: auto;
-          margin-right: 0;
-          flex-direction: row-reverse;
-          margin-top: 48px;
-          align-items: center;
-     }
-
-     .top_sct_head {
-          width: 402px;
-          font-weight: 600;
-          font-size: 48px;
-          line-height: 60px;
-          font-style: normal;
-          margin: 0 auto;
-     }
-
-     .top_sct_smhead {
-          width: 402px;
-          margin: 0 auto;
-          margin-top: 48px;
-          margin-bottom: 30px;
-          font-style: normal;
-          font-weight: 400;
-          font-size: 20px;
-          line-height: 36px;
-
-     }
-
-     .lftbox_wd {
-          width: 402px;
-          margin: 0 auto;
-     }
-
-     .pd-rmov {
-          padding: 0;
-     }
-
-     .rightsection_margin {
-          margin-top: 0;
-          width: auto;
-          height: auto;
-          padding: 0px 0px;
-     }
-
-     .service_box {
-          display: flex;
-          height: 242px;
-          gap: 35px;
-          width: 650px;
-          margin: 0 auto;
-     }
-
-     .service_box_details {
-          width: 100%;
-          height: auto;
-          word-spacing: 1px;
-     }
-
-     .protect_head {
-          width: 100%;
-          height: auto;
-          font-size: 24px;
-          line-height: 32px;
-     }
-
-     .protect_left_pos {
-          bottom: 10px;
-          left: 19px;
-     }
-
-     .protect_right_pos {
-          bottom: 10px;
-          left: 19px;
-     }
-
-     .testimonial_crd_details {
-          width: 100%;
-          height: 135px;
-     }
-
-     .avtr5 {
-          left: 64px;
-
-     }
-
-     .avtr6 {
-
-          left: 98px;
-     }
-
-     .avtr7 {
-          left: 130px;
-     }
-
-     .brdline::before {
-          left: -12px;
-     }
-
-     .brdline::after {
-          right: -24px;
-          top: 22px;
-     }
-
-     .tabletherowave {
-          position: absolute;
-          bottom: -3px;
-          display: block;
-          width: 100%;
-          height: 175px;
-     }
-
-     .tabletherobg {
-          display: block;
-          width: 100%;
-          height: 655px;
-     }
-
-     .hero_box {
-          top: 40px;
-          position: absolute;
-          margin-left: auto;
-          margin-right: auto;
-          left: 0;
-          right: 0;
-          /* text-align: center; */
-     }
-
-     .cta_box1 {
-          width: 75%;
-     }
-
-     .pos_md_h {
-          height: 330px;
-     }
-
-     .cta_bg {
-          height: auto;
-     }
-
-     .flx_drtion {
-          flex-direction: column-reverse;
-     }
-
-     .fot_icon {
-          display: none;
-     }
-
-     .fot_icon_img {
-          display: inline-block;
-     }
-
-     .foot_bg {
-          height: auto;
-          padding-top: 65px;
-          margin-top: -10px;
-          padding-bottom: 32px;
-     }
-
-     .mt-md-54 {
-          margin-top: 54px;
-          text-align: center;
-     }
-
-     .cta_hr {
-          display: none;
-     }
-
-     .service_head {
-          font-size: 32px;
-          line-height: 40px;
-     }
-
-     .benefit_head {
-          font-size: 32px;
-          line-height: 40px;
-          text-align: center;
-     }
-
-     .bene_tblet_mrg {
-          margin-top: 48px;
-     }
-
-     .cta_head {
-          width: 555px;
-          margin: 0 auto;
-          margin-bottom: 25px;
-     }
-
-     .md-txt-cntr {
-          text-align: center;
-     }
-
-     .cta_box2_pos {
-          left: 38px;
-          top: 143px;
-          position: absolute;
-          margin-left: auto;
-          margin-right: auto;
-          left: 70px;
-          right: 0;
-          /* text-align: center; */
-     }
-
-     .cta_box1_index {
-          left: 0px;
-          top: 0px;
-          position: absolute;
-          margin-left: auto;
-          margin-right: auto;
-          left: 0px;
-          right: 0;
-          /* text-align: center; */
-     }
-
-     .cta_box_ctnt {
-          display: flex;
-          align-items: baseline;
-          gap: 16px;
-     }
-
-     .sevice_banner {
-          margin-top: 96px;
-     }
-
-     .hero_banner {
-          margin-top: 96px;
-     }
-
-     .benefits_banner {
-          margin-top: 5px;
-     }
-
-     .protect_banner {
-          margin-top: 96px;
-     }
-
-     .protc_row {
-          margin-top: 56px;
-     }
-
-     .testimonial_banner {
-          margin-top: 120px;
-     }
-
-     .cta_banner {
-          margin-top: 49px;
-     }
-
-     .row_bene2 {
-          margin-top: 0px;
-     }
-
-     .tb_bene_box_mr {
-          margin-top: 62px;
-     }
-
-     .tab_serv_gp {
-          gap: 20px;
-     }
-
-     .top_gap_shot_info {
-          margin-top: 0px;
-     }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-     /* .row_wd {
-          align-items: center;
-     } */
-
-     .navBar_nav_gap {
-          gap: 0px;
-     }
-
-     .img_width {
-          object-fit: cover;
-          width: 100%;
-          height: 100%;
-          border-bottom-right-radius: 16px;
-          border-top-right-radius: 16px;
-     }
-
-     .rightsection_margin {
-          margin: 0px 0px;
-          width: auto;
-          height: auto;
-     }
-
-     .top_sct_head {
-          width: 100%;
-     }
-
-     .top_sct_smhead {
-          width: 100%;
-     }
-
-     .service_box_details {
-          width: 100%;
-          height: auto;
-     }
-
-     .protect_head {
-          width: 100%;
-     }
-
-     .testimonial_crd_details {
-          width: 100%;
-          height: 180px;
-     }
-
-     .cta_box1 {
-          width: 100%;
-          height: auto;
-     }
-
-     .cta_box2_pos {
-          left: 13px;
-          top: 143px;
-     }
-
-     .hero_box {
-          right: 240px;
-          top: 40px;
-          width: 500px;
-          height: auto;
-          padding: 27px;
-     }
-
-     .hero_box_details {
-          font-size: 28px;
-          line-height: 48px;
-     }
-
-     .herobg1 {
-          height: 484px;
-     }
-
-     .benefit_box_details {
-          width: auto;
-     }
-
-     .protect_left_pos {
-          position: absolute;
-          bottom: 90px;
-          left: 31px;
-     }
-
-     .protect_right_pos {
-          position: absolute;
-          bottom: 38px;
-          left: 31px;
-     }
-
-     .service_box {
-          width: auto;
-     }
-
-     .cta_box1_index {
-
-          left: 0px;
-     }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
-     .row_wd {
-          align-items: center;
-     }
-
-     .navBar_nav_gap {
-          gap: 20px;
-     }
-
-     .img_width {
-          width: 95%;
-     }
-
-     .top_sct_head {
-          width: 100%;
-     }
-
-     .top_sct_smhead {
-          width: 100%;
-     }
-
-     .hero_box {
-          right: 500px;
-     }
-
-     .service_box {
-          width: auto;
-     }
-
-     .rightsection_margin {
-          margin: 0px 0px;
-          width: 555px;
-          padding: 30px 0px;
-     }
-}
-
-@media only screen and (min-width:1400px) {
-     .container {
-          max-width: 1320px;
-          margin: 0 auto;
      }
 }
