@@ -690,6 +690,8 @@ a {
      height: 56px;
      padding: 0px 8px;
      box-sizing: border-box;
+     border: none;
+     margin-right: 2px;
 }
 
 .cta_btn {
